@@ -1,0 +1,10 @@
+# libs to run this template
+rpa-suite
+pyautogui
+pillow
+
+# others libs from your project
+# pandas
+# botcity-framework-core
+# botcity-framework-web
+# botcity-utils
