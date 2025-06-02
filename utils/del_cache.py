@@ -2,7 +2,8 @@
 
 import os
 import shutil
-from rpa_suite.log.functions_logger_uru import *
+from rpa_suite import rpa
+from config.config_logger import config_logger
 
 def delete_pycache(directory: str = '.') -> None:
     
@@ -24,4 +25,4 @@ def delete_pycache(directory: str = '.') -> None:
                 shutil.rmtree(pycache_dir)
 
     except Exception as e:
-        log_error(f'Erro durante a função: {delete_pycache.__name__}! Error: {str(e)}')
+        rpa.log.log_error(f'Erro durante a função: {delete_pycache.__name__}! Error: {str(e)}')
