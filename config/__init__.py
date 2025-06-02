@@ -4,9 +4,11 @@ import os
 import dotenv
 from .config_logger import config_logger
 
-"""
+# pylint: disable=pointless-string-statement
+""" 
 Default and basic configurations
 """
+# pylint: disable=pointless-string-statement
 
 # path dirs, order by root
 ROOT: str = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
