@@ -9,7 +9,7 @@ def main() -> None:
 
         # your code here
         rpa.log.log_start_run_debug(f"Start bot in: {config.ROOT}")
-        rpa.log.log_info(f"Tasks screenshot in execution")
+        rpa.log.log_info(f"Tasks screenshot in execution test")
         rpa.file.screen_shot()
         rpa.log.log_debug(f"Bot finished")
         # finish your code here
