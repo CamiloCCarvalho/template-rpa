@@ -21,7 +21,7 @@ disable = [
     "R0903", # too-many-instance-attributes
     "W0718", # broad-exception-caught
     "W0719", # broad-exception-raised
-]
+    "W0105", # pointless-string-statement
 
 # Permitir módulos compilados em C
 extension-pkg-allow-list = [
