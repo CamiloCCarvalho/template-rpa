@@ -1,7 +1,13 @@
 # libs to run this template
+setuptools
+wheel
 rpa-suite
 pyautogui
 pillow
+opencv-python
+webdriver-manager
+selenium
+requests
 
 # others libs from your project
 # pandas
