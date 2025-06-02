@@ -1,20 +1,22 @@
-
 from rpa_suite import rpa
-from config.config_logger import config_logger
+from rpa_suite.utils import system
+import config
 
-def main(config_logger=config_logger) -> None:
+def main(config=config) -> None:
     
     try:
-        
+
         # your code here
         rpa.log.log_start_run_debug(f'Start bot')
         rpa.log.log_info(f'Tasks screenshot in execution')
         rpa.file.screen_shot()
         rpa.log.log_debug(f'Bot finished')
-        ...
-        
+        # finish your code here
+
     except Exception as e:
-        rpa.log.log_error(f'Erro durante a função: {main.__name__}! Error: {str(e)}')
+        rpa.log.log_error(f'Erro durante a função: {main.__name__}! Error: {str(e)}.')
 
 if __name__ == '__main__':
-    main()
+
+    with system.KeepSessionActive(): # keep session active
+        main()

@@ -8,6 +8,7 @@ opencv-python
 webdriver-manager
 selenium
 requests
+dotenv
 
 # others libs from your project
 # pandas

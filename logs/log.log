@@ -1,4 +1,12 @@
 
-23.10.24.10:59 DEBUG    template\main.py:10   Start bot
-23.10.24.10:59 INFO     template\main.py:11   Tasks screenshot in execution
-23.10.24.10:59 DEBUG    template\main.py:13   Bot finished
+02.06.25.13:18 DEBUG    template-rpa/main.py:10   Start bot
+02.06.25.13:18 INFO     template-rpa/main.py:11   Tasks screenshot in execution
+02.06.25.13:18 DEBUG    template-rpa/main.py:13   Bot finished
+
+02.06.25.13:39 DEBUG    template-rpa/main.py:10   Start bot
+02.06.25.13:39 INFO     template-rpa/main.py:11   Tasks screenshot in execution
+02.06.25.13:39 DEBUG    template-rpa/main.py:13   Bot finished
+
+02.06.25.13:41 DEBUG    template-rpa/main.py:10   Start bot
+02.06.25.13:41 INFO     template-rpa/main.py:11   Tasks screenshot in execution
+02.06.25.13:41 DEBUG    template-rpa/main.py:13   Bot finished

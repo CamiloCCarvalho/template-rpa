@@ -1,6 +1,6 @@
 # ./config/config_logger.py
 
-from rpa_suite import suite as rpa
+from rpa_suite import rpa
 
 try:
     """
