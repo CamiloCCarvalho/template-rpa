@@ -1,17 +1,26 @@
-# libs to run this template
+# libs default project python
+pyperclip
+pypiwin32
 setuptools
 wheel
+requests
+python-dotenv
+
+# libs to use this template rpa-suite
 rpa-suite
 pyautogui
 pillow
 opencv-python
 webdriver-manager
 selenium
-requests
-dotenv
-black
 
-# others libs from your project
+# linters and formatters
+pylint
+black
+pre-commit
+
+
+# others libs maybe you like
 # pandas
 # botcity-framework-core
 # botcity-framework-web

@@ -12,6 +12,4 @@ try:
     config_logger = rpa.log.config_logger()
 
 except Exception as e:
-    rpa.error_print(
-        f'Erro durante processmaento do arquivo em: "config/config_looger.py"! Error: {str(e)}'
-    )
+    rpa.error_print(f'Erro durante processmaento do arquivo em: "config/config_looger.py"! Error: {str(e)}')
