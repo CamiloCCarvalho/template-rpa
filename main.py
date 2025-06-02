@@ -3,12 +3,12 @@ from rpa_suite.utils import system
 import config
 
 
-def main(config=config) -> None:
+def main() -> None:
 
     try:
 
         # your code here
-        rpa.log.log_start_run_debug(f"Start bot")
+        rpa.log.log_start_run_debug(f"Start bot in: {config.ROOT}")
         rpa.log.log_info(f"Tasks screenshot in execution")
         rpa.file.screen_shot()
         rpa.log.log_debug(f"Bot finished")
