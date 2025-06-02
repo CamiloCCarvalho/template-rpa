@@ -1,3 +1,4 @@
+# main.py
 from rpa_suite import rpa
 from rpa_suite.utils import system
 import config
