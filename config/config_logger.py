@@ -1,7 +1,5 @@
 # ./config/config_logger.py
 
-from rpa_suite import rpa
-
 try:
     """
     Module responsible for instance logger, create dir, create file, and configurate stream_handler and file_handler
