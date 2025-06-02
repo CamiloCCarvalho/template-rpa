@@ -9,6 +9,7 @@ webdriver-manager
 selenium
 requests
 dotenv
+black
 
 # others libs from your project
 # pandas
