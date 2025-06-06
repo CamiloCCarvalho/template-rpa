@@ -17,6 +17,7 @@ selenium
 # linters and formatters
 pylint
 black
+bandit
 pre-commit
 
 
